@@ -1,0 +1,63 @@
+.elementi {
+    margin: 5px;
+    cursor: pointer;
+}
+
+.elementi:hover {
+    text-decoration: underline;
+}
+
+.maplikacija {
+    margin: 5px;
+}
+
+.heder {
+    background-color: #f1dba9;
+    color: #9e3901;
+    display: flex;
+    justify-content: space-between;
+}
+
+.odjavi-se-dugme {
+    cursor: pointer;
+    margin: 5px;
+    border: 1px solid #9e3901;
+    color: #9e3901;
+    background-color: #ffc23b;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.desna-strana {
+    display: flex;
+}
+
+.dugmic {
+    margin-top: 3px;
+}
+
+.podesavanja {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    border: 1px solid #9e3901;
+    border-radius: 10px;
+}
+
+.podesavanja-dugme {
+   width: 100px;
+   height: 50px; 
+   color: #9e3901;
+   background-color: #f1dba9;
+   border: 1px solid #9e3901;
+   border-radius: 10px;
+   font-weight: bold;
+   margin: 5px;
+   cursor: pointer;
+}
+
+.podesavanja-dugme-div {
+    display: flex;
+    justify-content: center;
+}
